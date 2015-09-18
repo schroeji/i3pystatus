@@ -17,8 +17,8 @@ class Mem(IntervalModule):
     Requires psutil (from PyPI)
     """
 
-    format = "{avail_mem} MiB"
-    divisor = 1024 ** 2
+    format = "{avail_mem} GiB"
+    divisor = 1024 ** 3
     color = "#00FF00"
     warn_color = "#FFFF00"
     alert_color = "#FF0000"

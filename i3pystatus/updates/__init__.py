@@ -1,6 +1,6 @@
 from i3pystatus import SettingsBase, IntervalModule, formatp
 from i3pystatus.core.util import internet, require
-
+#from i3pystatus.updates.pacman import Pacman 
 
 class Backend(SettingsBase):
     settings = ()
